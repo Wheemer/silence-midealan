@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Silence MideaLAN",
+        "description": "Configure which MideaLAN AC should be forced silent. Fan mode is always silent.",
+        "data": {
+          "device_ids": "Protected MideaLAN device IDs",
+          "climate_entity": "AC climate entity",
+          "quiet_when": "Keep silent while these entities are on"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Silence MideaLAN",
+        "description": "Fan mode is always silent.",
+        "data": {
+          "device_ids": "Protected MideaLAN device IDs",
+          "climate_entity": "AC climate entity",
+          "quiet_when": "Keep silent while these entities are on"
+        }
+      }
+    }
+  }
+}

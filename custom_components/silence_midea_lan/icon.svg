@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Silence MideaLAN icon</title>
+  <desc id="desc">A muted window air conditioner with a LAN signal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="82" y1="52" x2="430" y2="466" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0fb9b1"/>
+      <stop offset="0.55" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="case" x1="112" y1="142" x2="400" y2="306" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="70" y1="166" x2="442" y2="296" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#93c5fd"/>
+    </linearGradient>
+    <filter id="mute-shadow" x="-45%" y="-45%" width="190%" height="190%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#020617" flood-opacity="0.72"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="104" fill="url(#bg)"/>
+
+  <g transform="translate(0 -28)">
+    <rect x="116" y="134" width="280" height="184" rx="30" fill="url(#case)"/>
+    <rect x="140" y="164" width="232" height="32" rx="10" fill="#e2e8f0"/>
+    <path d="M153 180h206" stroke="#64748b" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+    <rect x="142" y="216" width="130" height="70" rx="12" fill="#1e293b" opacity="0.9"/>
+    <path d="M162 235h90M162 253h90M162 271h90" stroke="#bfdbfe" stroke-width="8" stroke-linecap="round"/>
+
+    <rect x="296" y="218" width="70" height="68" rx="14" fill="#f8fafc" opacity="0.98"/>
+    <circle cx="331" cy="240" r="12" fill="#94a3b8"/>
+    <path d="M318 268h26" stroke="#64748b" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(0 -28)" fill="none" stroke="#93c5fd" stroke-linecap="round" opacity="0.95">
+    <path d="M318 110c20-16 48-16 68 0" stroke-width="17"/>
+    <path d="M342 84c35-23 78-23 113 0" stroke-width="15"/>
+  </g>
+
+  <g transform="translate(122 235) scale(11.2)" fill="#0f172a" stroke="#0f172a" stroke-width="1.2" stroke-linejoin="round" opacity="0.72" filter="url(#mute-shadow)">
+    <path d="M12 4.27L10.55 5.72L14 9.17V5L12 4.27M3.28 3L2 4.27L7.73 10H3V14H7L12 19V14.27L16.25 18.52C15.58 19.04 14.83 19.46 14 19.7V21.77C15.38 21.45 16.63 20.82 17.68 19.96L19.73 22L21 20.73L3.28 3M19 12C19 12.94 18.8 13.82 18.46 14.64L19.97 16.15C20.62 14.91 21 13.5 21 12C21 8.17 18.6 4.89 15.22 3.6V5.69C17.45 6.84 19 9.18 19 12M16.5 12C16.5 10.23 15.5 8.71 14 7.97V10.18L16.45 12.63C16.5 12.43 16.5 12.21 16.5 12Z"/>
+  </g>
+  <g transform="translate(122 235) scale(11.2)" fill="#f8fafc">
+    <path d="M12 4.27L10.55 5.72L14 9.17V5L12 4.27M3.28 3L2 4.27L7.73 10H3V14H7L12 19V14.27L16.25 18.52C15.58 19.04 14.83 19.46 14 19.7V21.77C15.38 21.45 16.63 20.82 17.68 19.96L19.73 22L21 20.73L3.28 3M19 12C19 12.94 18.8 13.82 18.46 14.64L19.97 16.15C20.62 14.91 21 13.5 21 12C21 8.17 18.6 4.89 15.22 3.6V5.69C17.45 6.84 19 9.18 19 12M16.5 12C16.5 10.23 15.5 8.71 14 7.97V10.18L16.45 12.63C16.5 12.43 16.5 12.21 16.5 12Z"/>
+  </g>
+</svg>

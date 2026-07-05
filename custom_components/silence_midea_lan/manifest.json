@@ -2,7 +2,7 @@
   "domain": "silence_midea_lan",
   "name": "Silence MideaLAN",
   "config_flow": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "documentation": "https://github.com/Wheemer/silence-midealan",
   "issue_tracker": "https://github.com/Wheemer/silence-midealan/issues",
   "codeowners": ["@Wheemer"],
